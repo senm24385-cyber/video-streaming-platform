@@ -1,0 +1,64 @@
+name: video_streaming_platform
+description: "A YouTube-like video streaming platform built with Flutter."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.0
+  riverpod: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+  # Networking & HTTP
+  http: ^1.1.0
+  dio: ^5.3.0
+
+  # Video Player
+  chewie: ^1.7.0
+  video_player: ^2.8.0
+  flutter_video_compress: ^1.0.0
+
+  # Database & Local Storage
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+  sqflite: ^2.3.0
+
+  # UI & Animation
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  animations: ^2.0.0
+
+  # Image Processing
+  image_picker: ^1.0.0
+  image: ^4.0.0
+  video_thumbnail: ^0.5.0
+
+  # Utils
+  intl: ^0.19.0
+  get_it: ^7.6.0
+  equatable: ^2.0.0
+  logger: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  riverpod_generator: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/icons/
